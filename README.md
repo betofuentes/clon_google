@@ -1,2 +1,2 @@
 # clon_google
-Intento de clon de página princimal de google
+Intento de clon de página principal de google
