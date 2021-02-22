@@ -19,17 +19,23 @@ header {
     justify-content: flex-end;
 }
 
+.navbar li {
+    margin-right: 1rem;
+}
+
 li{
     display: inline-block;
     list-style: none;
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
 
 header figure {
     width: 3.2rem;
+    margin-right: 1rem;
 }
 
 .apps circle {
