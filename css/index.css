@@ -9,68 +9,31 @@ html {
 }
 
 header {
-    margin: 1.5rem 0;
+    width: 100vw;
+    height: 60px;
     font-size: 1.4rem;
-}
-
-.navbar {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-}
-
-.navbar li {
-    margin-right: 1rem;
-}
-
-li{
-    display: inline-block;
-    list-style: none;
 }
 
 a {
-    color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
-header figure {
-    width: 3.2rem;
-    margin-right: 1rem;
-}
-
-.apps circle {
-    padding: 2rem;
-}
-
-.circle img{
-    border-radius: 50%;
-    width: 100%;
-}
-
-main {
-    max-width: 120rem;
-    height: 80vh;
-    font-size: 1.4rem;
-    margin: 0  auto;
-    
-}
-
-.container{
+header nav {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
     align-items: center;
 }
 
-.main-logo img{
-    width: 27.2rem;
-}
-
-.campo-buscador input{
-    border-width: 1px;
-    border-color: grey;
-    border-radius: 1rem;
-    width: 50rem;
-    height: 2.5rem;
-    outline: none;
-    background-color: transparent;
+nav .nav-right-section a {
+    margin-right: 1rem;
+    color: #000000;
 }
